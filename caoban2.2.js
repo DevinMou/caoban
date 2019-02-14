@@ -17,7 +17,7 @@
             pic_origin:'http://img.hb.meiwu.co/',
             name_url:name_url,
             _style:'#caoban{color:#fff;font-size:12px;position:fixed;overflow:hidden;top:20px;right:50px;z-index:100000;box-sizing: border-box;width: 210px;border-radius: 8px;background: #292929;user-select:none;max-height:calc(100% - 30px);display:flex;flex-flow:column nowrap;}#caoban.cb-hide,.cb-hide{display:none;}#caoban_top{width:160px;margin:12px auto;height:20px;line-height:20px;text-align:center;font-size:14px;color:#fff;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;flex:0 0 auto;}#caoban_box{position:relative;padding-bottom:10px;width:100%;display:flex;flex-flow:column nowrap;flex:1 1 auto}#caoban_mask{position: absolute;z-index: 1;top: 0;left: 0;width: 100%;height: 100%;background-image: linear-gradient(to bottom,#0000 350px,#292929);pointer-events: none;}#caoban_board_list{width:100%;padding-right:40px;max-height:400px;overflow-y:auto;overflow-x:hidden;}.cb-board{position:relative;color:rgba(255,255,255,.3);font-size:12px;width:150px;border:1px solid rgba(255,255,255,.15);border-radius:10px;height:20px;line-height:20px;margin:7px auto 7px 29px;display:flex;justify-content:space-between;overflow:hidden;}.cb-board>a{position:absolute;display:block;top:0;left:0;width:100%;height:100%;text-align:center;text-decoration:unset;color:#fff;background:rgb(41,54,51);cursor:pointer;opacity:0;}.cb-packing .cb-board>a:hover{opacity:1;}/*.cb-packing .cb-board:not(.packing):not(.complete)>a:hover{opacity:0;}*/.cb-packing .cb-board:not(.active){display:none;}.cb-board.active{border-color:#2AA48B;color:#fff;}.cb-board.packing{border-color:#2AA48B;color:#fff;}.cb-packing .cb-board-size,.cb-board.packing .cb-board-progress{display:inline-block;}.cb-packing .cb-board-count,.cb-board-progress,.cb-board-size,.cb-board.packing .cb-board-name{display:none;}.cb-board>span{box-sizing:border-box;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}.tal{text-align:left;padding:0 5px 0 14px;width:60%}.tar{text-align:right;padding:0 14px 0 5px;width:40%}.cb-progress-bar{width:100%;height:100%;position:absolute;z-index:-1;background:rgb(41,54,51);top:0;left:0;transform:translateX(-100%)}#caoban_supply{color:rgba(255,255,255,.3);padding:5px 25px 10px;display:flex;flex-flow:column nowrap;flex:1 2 auto;}#caoban_supply.cb-hide{display:none;}#caoban_supply a{color:rgba(255,255,255,.3);display:block;text-decoration:unset;line-height:16px;}#caoban_supply a:hover{color:#fff;}#caoban_bottom{width:100%;padding:12px 0;display:flex;justify-content:space-between;height:20px;line-height:20px;color:rgba(255,255,255,.3);flex:0 0 auto;}#caoban_threshold{flex:0 0 auto;}#caoban_threshold>p{text-align:center;margin:0 auto 12px;width:150px;color:rgba(255,255,255,.2)}#caoban_threshold input{border:1px solid rgba(255,255,255,.2);border-radius:3px;width:42px;display:inline-block;margin:0 5px;text-align:center;color:#fff;line-height:20px;background:transparent;}#caoban_threshold input.readonly{color:rgba(255,255,255,.5)}#caoban_bottom a{width:48%;padding:0 10px;color:rgba(255,255,255,.3);text-decoration:unset;}#caoban_bottom a.tar{text-align:right;}#caoban_btn{position:relative;width:162px;height:34px;background:#474747;line-height:34px;text-align:center;border-radius:17px;margin:5px auto;cursor:pointer;flex:0 0 auto;}#caoban_btn.active{background:#2AA48B;color:#fff;}#caoban_auto{height:24px;line-height:24px;background:#000;color:#fff;border-radius:4px;position:absolute;top:-34px;text-align:center;width:162px;left:0;display:none;}#caoban_auto a{color:#fff;text-decoration:underline}#caoban_auto p{display:block;height:10px;position:absolute;top:24px;width:100%;margin:0;background:transparent;}#caoban_btn.packing:not(.active):hover #caoban_auto{display:block}#caoban_supply_list{max-height:300px;width: 100%;padding-right: 50px;overflow-y: auto;overflow-x: hidden;}',
-            _html:'<div id="caoban_top">即将拯救你的花瓣</div><div id="caoban_box"><div id="caoban_mask"></div><div id="caoban_board_list"></div></div><div id="caoban_supply" class="cb-hide"><p>由于花瓣限制，有<span>0</span>张图片导出失败，请点击手动保存</p><div id="caoban_supply_list"></div></div><div id="caoban_threshold"><p title="若出现卡顿、崩溃等，请调小频率">默认频率:<input type="text" value="800">MB/包</p></div><div id="caoban_btn" data-action="a"><span>获取画板中</span><span id="caoban_auto">点击了解 <a href="https://shimo.im/docs/nQQeaii9gZU8hNKz/" target="_blank">手动/自动下载</a><p></p></span></div><div id="caoban_bottom"><a target="_blank" href="http://caoban.pro" class="tar">草瓣v2.2.8</a>|<a target="_blank" href="https://shimo.im/docs/28cT9yVulK8Hmh2Q">问题反馈</a></div>',
+            _html:'<div id="caoban_top">即将拯救你的花瓣</div><div id="caoban_box"><div id="caoban_mask"></div><div id="caoban_board_list"></div></div><div id="caoban_supply" class="cb-hide"><p>由于花瓣限制，有<span>0</span>张图片导出失败，请点击手动保存</p><div id="caoban_supply_list"></div></div><div id="caoban_threshold"><p title="若出现卡顿、崩溃等，请调小频率，建议小于1500M">默认频率:<input type="text" value="800">MB/包</p></div><div id="caoban_btn" data-action="a"><span>获取画板中</span><span id="caoban_auto">点击了解 <a href="https://shimo.im/docs/nQQeaii9gZU8hNKz/" target="_blank">手动/自动下载</a><p></p></span></div><div id="caoban_bottom"><a target="_blank" href="http://caoban.pro" class="tar">草瓣v2.2.8</a>|<a target="_blank" href="https://shimo.im/docs/28cT9yVulK8Hmh2Q">问题反馈</a></div>',
             container:null,
             element_top:null,
             element_list:null,
@@ -116,6 +116,7 @@
                 this.all=null;
                 this.ajax=null;
                 this.status='waiting';
+                this.limit_complete=0;
                 this.element_top.innerText='选择要导出的画板';
                 this.element_btn_word.innerText='下一步';
                 this.element_supply.className='cb-hide';
@@ -166,7 +167,7 @@
                         break;
                     case 'down':
                         this.status='restart';
-                        this.element_btn_word.innerText='继续导出';
+                        this.element_btn_word.innerText='返 回';
                         this.element_btn.className='active packing';
                         var _supply=[];
                         this.task.forEach(function(v){
@@ -178,7 +179,8 @@
                                 var _a=document.createElement('a');
                                 _a.innerText=v[0];
                                 _a.href=this.pic_origin+v[1];
-                                _a.target='_blank';
+                                _a.download=v[0]+'.'+v[2];
+                                //_a.target='_blank';
                                 _f.appendChild(_a);
                             }.bind(this));
                             _es.children[0].children[0].innerText=_supply.length;
@@ -413,7 +415,7 @@
                                         this.TaskPushData(task,res)
                                     }
                                 }else{
-                                    task.fail.push([name,pin.key]);
+                                    task.fail.push([name,pin.key,pin.type]);
                                     this.TaskPushData(task,res)
                                 }
 
@@ -441,15 +443,14 @@
                     this.element_top.innerText='待下载';
                     for(this.limit_complete;this.limit_complete<this.task_index;this.limit_complete++){
                         var _n=this.task[this.limit_complete].node;
-                        _n.children[4].innerText='已下载！';
-                        _n.children[5].innerText='已下载！';
+                        _n.children[4].innerText='已获取！';
+                        _n.children[5].innerText='已获取！';
                         _n.className='cb-board active complete';
                     }
                     if(this.auto_down){
                         a.click();
                         this.ContinueLimit()
                     }
-
                 }.bind(this,task))
             },
             TaskPushData:function(task,blob){
@@ -471,7 +472,7 @@
                 if(this.task_index===this.task.length){
                     this.status='down';
                     this.element_btn.click();
-                    this.element_top.innerText='打包完成';
+                    this.element_top.innerText='下载完成, 记得分享哦';
                     var pins_num=0,fail_num=0,size=0;
                     this.task.forEach(function(v){
                         size-=-v.node.dataset['size'];
@@ -488,7 +489,6 @@
                     this.element_btn_word.innerText=this.auto_down?'切换到手动下载':'切换到自动下载';
                     this.TaskPushData(this.task[this.task_index]);
                 }
-
             },
             AbortAjax:function () {
                 if(this.ajax){
